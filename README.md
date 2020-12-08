@@ -7,11 +7,11 @@ Below are some samples of the generator output. After the fiest epoch, the gener
 *Generated images at 1st epoch*
 <br>
 <br>
-By the 50th epoch, it enhanced the details of the face features (it even generated a face with sunglasses!). However, in most of the faces, one half of the face is good but the other half does not match.  
+By the 50th epoch, it enhanced the details of the face features.   
 ![Epoch 50](./img/generator_samples.png)
 *Generated images at 50th epoch*
 <br>
 <br>
-As can be seen in the plot below, the generator loss is still increasing, so training for more epochs might result in better generated faces.  
+Adding more convolutional layers might enhance the images. Also, I can optimize the learning rate a little bit more, or change the optimizers to have better convergance of the generator and discriminator losses.  
 ![training loss](./img/training_loss.png)  
 *Training loss*
